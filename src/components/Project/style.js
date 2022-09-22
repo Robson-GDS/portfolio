@@ -97,8 +97,10 @@ export const ProjectList = styled.div`
   }
 `
 
-export const PreviewButton = styled.button`
+export const PreviewButton = styled.a`
+  display: block;
   background-color: #01bf71;
+  text-decoration: none;
   width: 100%;
   padding: 10px 20px;
   margin-top: 10px;
@@ -106,6 +108,7 @@ export const PreviewButton = styled.button`
   color: #fff;
   border: none;
   font-size: 16px;
+  text-align: center;
   transition: all ease .3s;
 
   &:hover {
