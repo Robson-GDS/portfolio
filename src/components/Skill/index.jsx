@@ -1,9 +1,22 @@
-import { SkillContainer } from './style'
+import { FaHtml5, FaCss3Alt, FaJs, FaReact, FaNodeJs } from "react-icons/fa";
+
+import {
+   Container,
+   Content,
+   SkillTitle
+} from './style'
 
 export function Skill() {
   return (
-    <SkillContainer>
-      <h1>Skill</h1>
-    </SkillContainer>
+    <Container>
+      <SkillTitle>Skill</SkillTitle>
+      <Content>
+        <FaHtml5 />
+        <FaCss3Alt />
+        <FaJs />
+        <FaReact />
+        <FaNodeJs />
+      </Content>
+    </Container>
   )
 }
