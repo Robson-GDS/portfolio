@@ -46,14 +46,14 @@ export function Sidebar({ isOpen, toggle }) {
             Projeto
           </SidebarLink>
           <SidebarLink 
-            to="contato"
+            to="skill"
             onClick={toggle}
             spy={true} 
             smooth={true}
-            offset={-300}
+            offset={-80}
             duration={50}
           >
-            Contato
+            Skill
           </SidebarLink>
         </SidebarMenu>
       </SidebarWrapper>
