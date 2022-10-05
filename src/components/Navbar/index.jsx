@@ -60,7 +60,7 @@ export function Navbar({ toggle }) {
           </NavItem>
           <NavItem>
             <NavLinks 
-              to="sobre"
+              to="skill"
               spy={true} 
               smooth={true}
               offset={-80}

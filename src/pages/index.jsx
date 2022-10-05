@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { About } from "../components/About";
+import { Contact } from "../components/contact";
 import { HeroSection } from "../components/HeroSection";
 
 import { Navbar } from "../components/Navbar";
@@ -22,6 +23,7 @@ export function Home() {
       <About />
       <Project />
       <Skill />
+      <Contact />
     </>
   )
 }
